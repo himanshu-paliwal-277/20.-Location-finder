@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location finder</title>
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200 px-3 py-2 flex items-center flex-col">
+    <div class="">
+        <h1 class="text-2xl font-bold mb-4">Location Viewer</h1>
+        <div>
+            <h2 class="font-semibold">Latitude: <span id="latitude-value"></span></h2>
+            <h2 class="font-semibold">Longitude: <span id="longitude-value"></span></h2>
+        </div>
+        <button id="get-location-button" class="bg-blue-500 mt-5 px-4 py-2 rounded-lg text-white">Get Location</button>
+        <a class="text-blue-700 mt-4 block" style="text-decoration: underline;" href="https://www.maps.ie/coordinates.html" target="_blank">See location</a>
+    </div>
+
+
+    <!-- <div>
+        <iframe src="https://www.maps.ie/coordinates.html" class="w-full h-64" frameborder="0"></iframe>
+    </div> -->
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
